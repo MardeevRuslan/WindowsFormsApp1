@@ -30,8 +30,15 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.Git = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem14 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripComboBox1 = new System.Windows.Forms.ToolStripComboBox();
+            this.toolStripTextBox1 = new System.Windows.Forms.ToolStripTextBox();
             this.tool = new System.Windows.Forms.ToolStripMenuItem();
+            this.Вид = new System.Windows.Forms.ToolStripMenuItem();
+            this.Git = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem6 = new System.Windows.Forms.ToolStripMenuItem();
@@ -42,16 +49,9 @@
             this.toolStripMenuItem11 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem12 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem13 = new System.Windows.Forms.ToolStripMenuItem();
-            this.Вид = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItemProject = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItemBuild = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItemOtl = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem14 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripComboBox1 = new System.Windows.Forms.ToolStripComboBox();
-            this.toolStripTextBox1 = new System.Windows.Forms.ToolStripTextBox();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -68,6 +68,60 @@
             this.toolStripMenuItemOtl});
             resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.Name = "menuStrip1";
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem2,
+            this.toolStripMenuItem3,
+            this.toolStripMenuItem14,
+            this.toolStripComboBox1,
+            this.toolStripTextBox1});
+            this.toolStripMenuItem1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            resources.ApplyResources(this.toolStripMenuItem1, "toolStripMenuItem1");
+            // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            resources.ApplyResources(this.toolStripMenuItem2, "toolStripMenuItem2");
+            // 
+            // toolStripMenuItem3
+            // 
+            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
+            resources.ApplyResources(this.toolStripMenuItem3, "toolStripMenuItem3");
+            // 
+            // toolStripMenuItem14
+            // 
+            this.toolStripMenuItem14.Name = "toolStripMenuItem14";
+            resources.ApplyResources(this.toolStripMenuItem14, "toolStripMenuItem14");
+            // 
+            // toolStripComboBox1
+            // 
+            this.toolStripComboBox1.ForeColor = System.Drawing.Color.Maroon;
+            this.toolStripComboBox1.Name = "toolStripComboBox1";
+            resources.ApplyResources(this.toolStripComboBox1, "toolStripComboBox1");
+            // 
+            // toolStripTextBox1
+            // 
+            resources.ApplyResources(this.toolStripTextBox1, "toolStripTextBox1");
+            this.toolStripTextBox1.Name = "toolStripTextBox1";
+            this.toolStripTextBox1.Click += new System.EventHandler(this.toolStripTextBox1_Click);
+            // 
+            // tool
+            // 
+            this.tool.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.tool.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.tool.Name = "tool";
+            resources.ApplyResources(this.tool, "tool");
+            // 
+            // Вид
+            // 
+            this.Вид.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Вид.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Вид.Name = "Вид";
+            resources.ApplyResources(this.Вид, "Вид");
             // 
             // Git
             // 
@@ -86,13 +140,7 @@
             this.Git.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Git.Name = "Git";
             resources.ApplyResources(this.Git, "Git");
-            // 
-            // Правка
-            // 
-            this.tool.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.tool.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.tool.Name = "Правка";
-            resources.ApplyResources(this.tool, "Правка");
+            this.Git.Click += new System.EventHandler(this.Git_Click);
             // 
             // toolStripMenuItem4
             // 
@@ -144,13 +192,6 @@
             this.toolStripMenuItem13.Name = "toolStripMenuItem13";
             resources.ApplyResources(this.toolStripMenuItem13, "toolStripMenuItem13");
             // 
-            // Вид
-            // 
-            this.Вид.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Вид.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Вид.Name = "Вид";
-            resources.ApplyResources(this.Вид, "Вид");
-            // 
             // toolStripMenuItemProject
             // 
             this.toolStripMenuItemProject.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
@@ -171,45 +212,6 @@
             this.toolStripMenuItemOtl.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.toolStripMenuItemOtl.Name = "toolStripMenuItemOtl";
             resources.ApplyResources(this.toolStripMenuItemOtl, "toolStripMenuItemOtl");
-            // 
-            // toolStripMenuItem1
-            // 
-            this.toolStripMenuItem1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem2,
-            this.toolStripMenuItem3,
-            this.toolStripMenuItem14,
-            this.toolStripComboBox1,
-            this.toolStripTextBox1});
-            this.toolStripMenuItem1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            resources.ApplyResources(this.toolStripMenuItem1, "toolStripMenuItem1");
-            // 
-            // toolStripMenuItem2
-            // 
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            resources.ApplyResources(this.toolStripMenuItem2, "toolStripMenuItem2");
-            // 
-            // toolStripMenuItem3
-            // 
-            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            resources.ApplyResources(this.toolStripMenuItem3, "toolStripMenuItem3");
-            // 
-            // toolStripMenuItem14
-            // 
-            this.toolStripMenuItem14.Name = "toolStripMenuItem14";
-            resources.ApplyResources(this.toolStripMenuItem14, "toolStripMenuItem14");
-            // 
-            // toolStripComboBox1
-            // 
-            this.toolStripComboBox1.ForeColor = System.Drawing.Color.Maroon;
-            this.toolStripComboBox1.Name = "toolStripComboBox1";
-            resources.ApplyResources(this.toolStripComboBox1, "toolStripComboBox1");
-            // 
-            // toolStripTextBox1
-            // 
-            resources.ApplyResources(this.toolStripTextBox1, "toolStripTextBox1");
-            this.toolStripTextBox1.Name = "toolStripTextBox1";
             // 
             // Form1
             // 

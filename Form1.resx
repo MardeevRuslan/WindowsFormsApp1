@@ -160,10 +160,10 @@
   <data name="toolStripMenuItem1.Text" xml:space="preserve">
     <value>Файл</value>
   </data>
-  <data name="Правка.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="tool.Size" type="System.Drawing.Size, System.Drawing">
     <value>59, 20</value>
   </data>
-  <data name="Правка.Text" xml:space="preserve">
+  <data name="tool.Text" xml:space="preserve">
     <value>Правка</value>
   </data>
   <data name="Вид.Size" type="System.Drawing.Size, System.Drawing">
@@ -293,16 +293,58 @@
   <data name="$this.Text" xml:space="preserve">
     <value>Visual Studio Imit</value>
   </data>
+  <data name="&gt;&gt;toolStripMenuItem1.Name" xml:space="preserve">
+    <value>toolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem2.Name" xml:space="preserve">
+    <value>toolStripMenuItem2</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem3.Name" xml:space="preserve">
+    <value>toolStripMenuItem3</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem14.Name" xml:space="preserve">
+    <value>toolStripMenuItem14</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripComboBox1.Name" xml:space="preserve">
+    <value>toolStripComboBox1</value>
+  </data>
+  <data name="&gt;&gt;toolStripComboBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripTextBox1.Name" xml:space="preserve">
+    <value>toolStripTextBox1</value>
+  </data>
+  <data name="&gt;&gt;toolStripTextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tool.Name" xml:space="preserve">
+    <value>tool</value>
+  </data>
+  <data name="&gt;&gt;tool.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Вид.Name" xml:space="preserve">
+    <value>Вид</value>
+  </data>
+  <data name="&gt;&gt;Вид.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;Git.Name" xml:space="preserve">
     <value>Git</value>
   </data>
   <data name="&gt;&gt;Git.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Правка.Name" xml:space="preserve">
-    <value>Правка</value>
-  </data>
-  <data name="&gt;&gt;Правка.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;toolStripMenuItem4.Name" xml:space="preserve">
@@ -365,12 +407,6 @@
   <data name="&gt;&gt;toolStripMenuItem13.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;Вид.Name" xml:space="preserve">
-    <value>Вид</value>
-  </data>
-  <data name="&gt;&gt;Вид.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;toolStripMenuItemProject.Name" xml:space="preserve">
     <value>toolStripMenuItemProject</value>
   </data>
@@ -388,42 +424,6 @@
   </data>
   <data name="&gt;&gt;toolStripMenuItemOtl.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripMenuItem1.Name" xml:space="preserve">
-    <value>toolStripMenuItem1</value>
-  </data>
-  <data name="&gt;&gt;toolStripMenuItem1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripMenuItem2.Name" xml:space="preserve">
-    <value>toolStripMenuItem2</value>
-  </data>
-  <data name="&gt;&gt;toolStripMenuItem2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripMenuItem3.Name" xml:space="preserve">
-    <value>toolStripMenuItem3</value>
-  </data>
-  <data name="&gt;&gt;toolStripMenuItem3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripMenuItem14.Name" xml:space="preserve">
-    <value>toolStripMenuItem14</value>
-  </data>
-  <data name="&gt;&gt;toolStripMenuItem14.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripComboBox1.Name" xml:space="preserve">
-    <value>toolStripComboBox1</value>
-  </data>
-  <data name="&gt;&gt;toolStripComboBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripTextBox1.Name" xml:space="preserve">
-    <value>toolStripTextBox1</value>
-  </data>
-  <data name="&gt;&gt;toolStripTextBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Form1</value>
